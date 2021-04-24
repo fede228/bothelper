@@ -17,7 +17,7 @@ exports.commands = async (client, message, prefix) => {
             .addField("Разработчик [Лучший в своём роде]:", "mahoney#2228")
             .addField("Тех.Помощник:", "Roman Liquid")
             .setTimestamp()
-            .setFooter(`Informal helper | Michell Mahoney`, client.user.displayAvatarURL());
+            .setFooter(`Inrmal helper | Michell Mahoney`, client.user.displayAvatarURL());
         return message.channel.send(`<@${message.author.id}>`, Embed).then(m => m.delete({ timeout: 30000 }));
     }
 }

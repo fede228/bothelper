@@ -13,11 +13,11 @@ exports.commands = async (client, message, prefix) => {
             .setColor("RANDOM")
             .setTitle(`💎・Авторы бота`)
             .setDescription('Красавчики, уважаю их :3')
-            .addField("Владелец:", "mahoney#2228 , kill me, luffich#6666")
+            .addField("Владельцы:", "Модерация informal organizarion Red Rock")
             .addField("Разработчик [Лучший в своём роде]:", "mahoney#2228")
-            .addField("Тех.Помощник:", "Roman Liquid")
+            .addField("Тех.Помощник:", "Like A Boss[Лучший в своём роде]")
             .setTimestamp()
-            .setFooter(`Informal helper | Michell Mahoney`, client.user.displayAvatarURL());
+            .setFooter(`Informal support | Michell Mahoney`, client.user.displayAvatarURL());
         return message.channel.send(`<@${message.author.id}>`, Embed).then(m => m.delete({ timeout: 30000 }));
     }
 }

@@ -12,7 +12,7 @@ exports.commands = async (client, message, prefix) => {
             .setColor(settings.color)
             .setAuthor(user.username)
             .setImage(user.displayAvatarURL())
-            .setFooter(`Informalsdfsdf helper | Michell Mahoney`, message.client.user.displayAvatarURL());
+            .setFooter(`Informal helper | Michell Mahoney`, message.client.user.displayAvatarURL());
         message.channel.send(embed)
     }
 }
